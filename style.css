@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#navbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-width: 150px;
+  position: fixed;
+}
+
+#main-doc {
+  margin-left: 150px;
+}
+
+@media screen and (max-width: 500px) {
+  #navbar {
+    position: fixed;
+  }
+}
